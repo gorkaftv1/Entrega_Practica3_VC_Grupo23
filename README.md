@@ -84,7 +84,7 @@ Notas prácticas:
 - Descripción: en este chunk final se parte de la idea de que siempre tenemos la moneda más grande del grupo de monedas clasificadas en el chunk anterior como gold, copper o silver en ese orden(la moneda de referencia).
 - Implementación: tras definir cual será nuestra moneda de referencia, a partir de ella calculamos el ratio de mm/px y los ratios esperados de tamaño con respecto a la moneda de referencia y lo combinamos con la diferencia real de tamaño para usarlos en una heurística de puntuación. A continuación recorremos las monedas detectadas y teniendo en cuenta el color en el que se clasificó comprobamos su tamaño con respecto a la moneda de referencia y la clasificamos dentro de los valores posibles(solo valores de su color). Y finalmente calculamos el valor y lo pintamos en la imagen
 
-![clasificacion_final](imagen_ideal.png)
+![clasificacion_final](Imagen_ideal.png)
 
 ### Tarea 2: 
 #### Clasificación de Microplásticos
